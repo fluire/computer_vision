@@ -2,6 +2,8 @@ import cv2 as cv
 import mediapipe as mp
 import time
 
+#class for the use of face detection and drawing landmarks
+
 class FaceDetector:
     def __init__(self, minDetectionCon=0.5):
         self.minDetectionCon = minDetectionCon    
